@@ -4,19 +4,19 @@ Solution Spring Boot Rest - Without JPA
 
 ## Commands
 
-mvn clean package spring-boot:repackage
-java -jar target/solution.jar
+> mvn clean package spring-boot:repackage
+> java -jar target/solution.jar
 
 ## Example URLs
 
 Examples for CRUD
 ### GET: 
 ```
-http://localhost:8080/persona/1
+> http://localhost:8080/persona/1
 ```
 ### POST:
 ```
-http://localhost:8080/persona
+> http://localhost:8080/persona
 	JSON:
 		 	{
 				"id": "0",
@@ -29,7 +29,7 @@ http://localhost:8080/persona
 ```			
 ### PUT:
 ```
-http://localhost:8080/persona/1
+> http://localhost:8080/persona/1
 	JSON:
 		 	{
 				"id": "1",
@@ -42,5 +42,5 @@ http://localhost:8080/persona/1
 ```			
 ### DELETE:
 ```
-http://localhost:8080/persona/1
+> http://localhost:8080/persona/1
 ```
