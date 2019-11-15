@@ -1,11 +1,21 @@
-COMMANDS
+# Project Title
+
+Solution Spring Boot Rest - Without JPA
+
+## Commands
 
 mvn clean package spring-boot:repackage
 java -jar target/solution.jar
 
-EXAMPLE URL
-GET: http://localhost:8080/persona/1
-POST: http://localhost:8080/persona
+## Example URLs
+
+Examples for CRUD
+### GET: 
+```
+http://localhost:8080/persona/1
+```
+### POST:
+```http://localhost:8080/persona
 	JSON:
 		 	{
 				"id": "0",
@@ -15,7 +25,10 @@ POST: http://localhost:8080/persona
 				"phoneNumber": "997314624",
 				"colorHair": "BLACK"
 			}
-PUT: http://localhost:8080/persona/1
+```			
+### PUT:
+```
+http://localhost:8080/persona/1
 	JSON:
 		 	{
 				"id": "1",
@@ -25,4 +38,8 @@ PUT: http://localhost:8080/persona/1
 				"phoneNumber": "997314624",
 				"colorHair": "BROWN"
 			}
-DELETE: http://localhost:8080/persona/1
+```			
+### DELETE:
+```
+http://localhost:8080/persona/1
+```
